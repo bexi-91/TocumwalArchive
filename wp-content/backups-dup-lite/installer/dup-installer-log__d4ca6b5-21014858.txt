@@ -1,0 +1,1149 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:59:08
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.24                                |8.0.3
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2021-10-21 01:48:58
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.32
+DB TABLES___________: 80
+DB ROWS_____________: 6,597
+DB FILE SIZE________: 19.45MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.0.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.3 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Applications/MAMP/htdocs/TocumwalArchive"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/TocumwalArchive/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/TocumwalArchive/20211016_thetocumwalarchive_[HASH]_20211021014858_archive.zip"
+SIZE________________: 294.5MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 01:59:26 - RUNTIME: 18.2124 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:01:20
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.32 -- Build Server: 5.7.32
+FILE SIZE:	dup-database__[HASH].sql (9.9MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/TocumwalArchive/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	713
+
+azr_commentmeta: (0)
+azr_comments: (2)
+azr_links: (0)
+azr_options: (214)
+azr_postmeta: (255)
+azr_posts: (77)
+azr_sgs_log_events: (121)
+azr_sgs_log_visitors: (63)
+azr_term_relationships: (106)
+azr_term_taxonomy: (20)
+azr_termmeta: (0)
+azr_terms: (20)
+azr_usermeta: (17)
+azr_users: (1)
+wp_acff_submissions: (0)
+wp_actionscheduler_actions: (38)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (109)
+wp_bwg_album: (0)
+wp_bwg_album_gallery: (0)
+wp_bwg_file_paths: (109)
+wp_bwg_gallery: (1)
+wp_bwg_image: (54)
+wp_bwg_image_comment: (0)
+wp_bwg_image_rate: (0)
+wp_bwg_image_tag: (0)
+wp_bwg_shortcode: (2)
+wp_bwg_theme: (2)
+wp_commentmeta: (6)
+wp_comments: (3)
+wp_duplicator_packages: (0)
+wp_frmt_form_entry: (0)
+wp_frmt_form_entry_meta: (0)
+wp_frmt_form_views: (14)
+wp_fwantispam_log: (0)
+wp_links: (0)
+wp_mappress_maps: (2)
+wp_mappress_posts: (1)
+wp_ngg_album: (0)
+wp_ngg_gallery: (2)
+wp_ngg_pictures: (47)
+wp_options: (314)
+wp_postmeta: (1365)
+wp_posts: (522)
+wp_term_relationships: (217)
+wp_term_taxonomy: (29)
+wp_termmeta: (0)
+wp_terms: (29)
+wp_usermeta: (103)
+wp_users: (5)
+wp_wpforms_tasks_meta: (15)
+wp_wpgmza: (0)
+wpstg0_actionscheduler_actions: (38)
+wpstg0_actionscheduler_claims: (0)
+wpstg0_actionscheduler_groups: (2)
+wpstg0_actionscheduler_logs: (109)
+wpstg0_commentmeta: (6)
+wpstg0_comments: (3)
+wpstg0_frmt_form_entry: (0)
+wpstg0_frmt_form_entry_meta: (0)
+wpstg0_frmt_form_views: (14)
+wpstg0_links: (0)
+wpstg0_mappress_maps: (2)
+wpstg0_mappress_posts: (1)
+wpstg0_ngg_album: (0)
+wpstg0_ngg_gallery: (2)
+wpstg0_ngg_pictures: (47)
+wpstg0_options: (359)
+wpstg0_postmeta: (1419)
+wpstg0_posts: (526)
+wpstg0_subscribe2: (0)
+wpstg0_term_relationships: (220)
+wpstg0_term_taxonomy: (29)
+wpstg0_termmeta: (0)
+wpstg0_terms: (29)
+wpstg0_usermeta: (103)
+wpstg0_users: (5)
+wpstg0_wpforms_tasks_meta: (15)
+wpstg0_wpgmza: (0)
+Removed '76' cache/transient rows
+
+INSERT DATA RUNTIME: 4.2904 sec.
+STEP-2 COMPLETE @ 02:01:24 - RUNTIME: 4.3327 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:01:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "The Tocumwal Archive"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/customer/www/kayleed.sgedu.site/public_html"
+path_new______________: "/Applications/MAMP/htdocs/TocumwalArchive"
+siteurl_______________: "http://localhost:8888/TocumwalArchive"
+url_old_______________: "https://kayleed.sgedu.site"
+url_new_______________: "http://localhost:8888/TocumwalArchive"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "azr_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "azr_comments"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "azr_options"_____________________________________[ROWS:   214][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_postmeta"____________________________________[ROWS:   255][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_posts"_______________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_sgs_log_events"______________________________[ROWS:   121][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_sgs_log_visitors"____________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_term_relationships"__________________________[ROWS:   106][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_term_taxonomy"_______________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_termmeta"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "azr_terms"_______________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_usermeta"____________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "azr_users"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_acff_submissions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_bwg_album"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_album_gallery"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_file_paths"_______________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_bwg_gallery"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_bwg_image"____________________________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_bwg_image_comment"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image_rate"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image_tag"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_shortcode"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_bwg_theme"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_entry"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_entry_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frmt_form_views"______________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_fwantispam_log"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mappress_maps"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_mappress_posts"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_ngg_album"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ngg_gallery"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_ngg_pictures"_________________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   314][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1365][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   522][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   217][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   103][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wp_wpgmza"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_actionscheduler_actions"__________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_actionscheduler_claims"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_actionscheduler_groups"___________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_actionscheduler_logs"_____________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_commentmeta"______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_comments"_________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_frmt_form_entry"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_frmt_form_entry_meta"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_frmt_form_views"__________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_links"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_mappress_maps"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_mappress_posts"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_ngg_album"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_ngg_gallery"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_ngg_pictures"_____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_options"__________________________________[ROWS:   359][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_postmeta"_________________________________[ROWS:  1419][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_posts"____________________________________[ROWS:   526][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_subscribe2"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_term_relationships"_______________________[ROWS:   220][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_term_taxonomy"____________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_termmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_terms"____________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_usermeta"_________________________________[ROWS:   103][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_users"____________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_wpforms_tasks_meta"_______________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/kayleed.sgedu.site/public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  2:"\/home\/customer\/www\/kayleed.sgedu.site\/public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fkayleed.sgedu.site%2Fpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  4:"\home\customer\www\kayleed.sgedu.site\public_html" => "/Applications/MAMP/htdocs/TocumwalArchive"
+	SEARCH  5:"\\home\\customer\\www\\kayleed.sgedu.site\\public_html" => "\/Applications\/MAMP\/htdocs\/TocumwalArchive"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Ckayleed.sgedu.site%5Cpublic_html" => "%2FApplications%2FMAMP%2Fhtdocs%2FTocumwalArchive"
+	SEARCH  7:"//kayleed.sgedu.site" ============================> "//localhost:8888/TocumwalArchive"
+	SEARCH  8:"\/\/kayleed.sgedu.site" ==========================> "\/\/localhost:8888\/TocumwalArchive"
+	SEARCH  9:"%2F%2Fkayleed.sgedu.site" ========================> "%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+	SEARCH 10:"https://localhost:8888/TocumwalArchive" ==========> "http://localhost:8888/TocumwalArchive"
+	SEARCH 11:"https:\/\/localhost:8888\/TocumwalArchive" =======> "http:\/\/localhost:8888\/TocumwalArchive"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive" => "http%3A%2F%2Flocalhost%3A8888%2FTocumwalArchive"
+
+EVALUATE TABLE: "wpstg0_wpgmza"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:80 	|	 Rows:6816 	|	 Cells:54159 
+UPDATED:	Tables:10 	|	 Rows:774 	|	 Cells:1040 
+ERRORS:		0 
+RUNTIME:	1.731200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost:8888/TocumwalArchive"
+	UPDATE WP_SITEURL "http://localhost:8888/TocumwalArchive"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate simple-google-recaptcha/simple-google-recaptcha.php
+Plugin(s) listed here are deactivated: simple-google-recaptcha/simple-google-recaptcha.php
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:01:31 - RUNTIME: 1.8463 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  Simple Google reCAPTCHA
+	SECTIONS: general
+	LONG MSG: It is deactivated because the Google Recaptcha required reCaptcha site key which is bound to the site's address. Your package site's address and installed site's address doesn't match. You can reactivate it from the installed site login panel after completion of the installation.<br>
+                                <strong>Please do not forget to change the reCaptcha site key after activating it.</strong>
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
